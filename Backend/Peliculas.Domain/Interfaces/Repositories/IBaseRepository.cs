@@ -2,14 +2,14 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Peliculas.Domain.Interfaces
+namespace Peliculas.Domain.Interfaces.Repositories
 {
     public interface IBaseRepository<T> where T : class, IEntity
     {
-        public T GetByIdAsync(int id);
-        public List<T> GetAll();
-        public T Add(T entity);
-        public T Update(T entity);
-        public void Delete(T entity);
+        public Task<T> GetByIdAsync(int id);
+        public Task<List<T>> GetAllAsync();
+        public Task<T> AddAsync(T entity);
+        public Task<T> UpdateAsync(T entity);
+        public Task DeleteAsync(T entity);
     }
 }

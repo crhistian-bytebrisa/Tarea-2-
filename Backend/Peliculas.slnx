@@ -1,3 +1,6 @@
 <Solution>
   <Project Path="Peliculas.API/Peliculas.API.csproj" Id="79eeff86-eaf3-4147-a493-dafd7e6b8ed3" />
+  <Project Path="Peliculas.Application/Peliculas.Application.csproj" Id="3ea040a9-dfad-4d9a-81ac-b1f3aab01b3d" />
+  <Project Path="Peliculas.Domain/Peliculas.Domain.csproj" Id="e1d5a2cb-2459-4d01-b8de-6a622e771e8e" />
+  <Project Path="Peliculas.Infraestructure/Peliculas.Infraestructure.csproj" Id="9033498d-9880-4f94-a021-a10dc60e1f1d" />
 </Solution>
